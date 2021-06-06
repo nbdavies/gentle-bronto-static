@@ -23,28 +23,28 @@
             </div>
             <ul class='nav nav-pills justify-content-center nav-fill'>
               <li class='nav-item'>
-                <a class='nav-link' href="/news">News</a>
+                <a class='nav-link {% if page.nav == 'news' %}active{% endif %}' href="/news">News</a>
               </li>
               <li class='nav-item'>
-                <a class='nav-link' href="/shows">Shows</a>
+                <a class='nav-link {% if page.nav == 'shows' %}active{% endif %}' href="/shows">Shows</a>
               </li>
               <li class='nav-item'>
-                <a class='nav-link' href="/music">Music</a>
+                <a class='nav-link {% if page.nav == 'music' %}active{% endif %}' href="/music">Music</a>
               </li>
               <li class='nav-item'>
-                <a class='nav-link' href="/about">About</a>
+                <a class='nav-link {% if page.nav == 'about' %}active{% endif %}' href="/about">About</a>
               </li>
               <li class='nav-item'>
-                <a class='nav-link' href="/bio">Bio</a>
+                <a class='nav-link {% if page.nav == 'bio' %}active{% endif %}' href="/bio">Bio</a>
               </li>
               <li class='nav-item'>
-                <a class='nav-link' href="/history">History</a>
+                <a class='nav-link {% if page.nav == 'history' %}active{% endif %}' href="/history">History</a>
               </li>
               <li class='nav-item'>
-                <a class='nav-link' href="/press">Press</a>
+                <a class='nav-link {% if page.nav == 'press' %}active{% endif %}' href="/press">Press</a>
               </li>
               <li class='nav-item'>
-                <a class='nav-link' href="/friends">Friends</a>
+                <a class='nav-link {% if page.nav == 'friends' %}active{% endif %}' href="/friends">Friends</a>
               </li>
             </ul>
             <a class='svg' href="https://gentlebrontosaurus.bandcamp.com">
