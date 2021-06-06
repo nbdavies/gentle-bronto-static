@@ -1,6 +1,7 @@
 a.svg {
   padding: 0px;
   margin: 5px 0px 0px 0px;
+  text-decoration: none;
 }
 a.svg img {
   width: 40px;

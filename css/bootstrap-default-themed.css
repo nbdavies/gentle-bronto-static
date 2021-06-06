@@ -162,7 +162,6 @@ sup {
 
 a {
   color: #0D4C69;
-  text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -3842,6 +3841,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  color: #0D4C69;
 }
 
 .nav-link:hover, .nav-link:focus {
