@@ -10,3 +10,66 @@ a.svg img {
 .nav-pills {
   border-radius: 0.25rem;
 }
+
+main.container {
+  margin-top: 1em;
+}
+
+body {
+  background-color: #F9F2D1;
+}
+
+.navbar {
+  background-color: #08786E;
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 0 0 0.5em 0.5em;
+}
+
+.navbar h3 {
+  color: #F9F2D1;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: #F9F2D1;
+}
+
+button.navbar-toggler {
+  border-color: #F9F2D1;
+}
+
+button.navbar-toggler svg {
+  stroke: #F9F2D1;
+}
+
+.navbar .nav-link.active, .nav-link:focus, .nav-link:hover {
+  color: #C3D767;
+}
+
+h2, h4, h5 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #08786E;
+}
+
+.history strong {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #08786E;
+}
+
+a {
+  color: #08786E;
+}
+
+.history li {
+  list-style: none;
+}
+
+blockquote footer {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #08786E;
+  padding-top: 1em;
+}
+
+.badge {
+  background-color: #08786E;
+}
